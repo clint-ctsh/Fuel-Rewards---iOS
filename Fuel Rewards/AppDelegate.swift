@@ -88,6 +88,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
+    
+    //This line returns the persistent container set up in the AppDelegate
+    static var persistentContainer: NSPersistentContainer {
+        return (UIApplication.shared.delegate as! AppDelegate).persistentContainer
+    }
+    
+    //This line returns context (An object representing a single object space or scratch pad that you use to fetch, create, and save managed objects) from persitent container
+    static var viewContext: NSManagedObjectContext {
+        return persistentContainer.viewContext
+    }
 
 }
 

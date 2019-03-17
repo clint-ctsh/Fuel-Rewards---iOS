@@ -16,7 +16,7 @@
 		265A2C342230411C00790D1E /* Fuel_RewardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265A2C332230411C00790D1E /* Fuel_RewardsTests.swift */; };
 		265A2C3F2230411C00790D1E /* Fuel_RewardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265A2C3E2230411C00790D1E /* Fuel_RewardsUITests.swift */; };
 		265A2C51223176B700790D1E /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265A2C50223176B700790D1E /* login.storyboard */; };
-		265A2C532231882300790D1E /* Login View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265A2C522231882300790D1E /* Login View Controller.swift */; };
+		26C1DC7E223ED02C0063AFC8 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1DC7D223ED02C0063AFC8 /* loginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		265A2C3E2230411C00790D1E /* Fuel_RewardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fuel_RewardsUITests.swift; sourceTree = "<group>"; };
 		265A2C402230411C00790D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		265A2C50223176B700790D1E /* login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = login.storyboard; sourceTree = "<group>"; };
-		265A2C522231882300790D1E /* Login View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login View Controller.swift"; sourceTree = "<group>"; };
+		26C1DC7D223ED02C0063AFC8 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				265A2C50223176B700790D1E /* login.storyboard */,
-				265A2C522231882300790D1E /* Login View Controller.swift */,
+				26C1DC7D223ED02C0063AFC8 /* loginViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -298,9 +298,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26C1DC7E223ED02C0063AFC8 /* loginViewController.swift in Sources */,
 				265A2C1E2230411B00790D1E /* ViewController.swift in Sources */,
 				265A2C1C2230411B00790D1E /* AppDelegate.swift in Sources */,
-				265A2C532231882300790D1E /* Login View Controller.swift in Sources */,
 				265A2C242230411B00790D1E /* Fuel_Rewards.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
