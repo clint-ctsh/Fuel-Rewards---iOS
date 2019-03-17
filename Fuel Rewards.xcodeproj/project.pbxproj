@@ -17,6 +17,7 @@
 		265A2C3F2230411C00790D1E /* Fuel_RewardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265A2C3E2230411C00790D1E /* Fuel_RewardsUITests.swift */; };
 		265A2C51223176B700790D1E /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265A2C50223176B700790D1E /* login.storyboard */; };
 		26C1DC7E223ED02C0063AFC8 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1DC7D223ED02C0063AFC8 /* loginViewController.swift */; };
+		26C1DC80223F01960063AFC8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1DC7F223F01960063AFC8 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		265A2C402230411C00790D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		265A2C50223176B700790D1E /* login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = login.storyboard; sourceTree = "<group>"; };
 		26C1DC7D223ED02C0063AFC8 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		26C1DC7F223F01960063AFC8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				265A2C272230411C00790D1E /* LaunchScreen.storyboard */,
 				265A2C2A2230411C00790D1E /* Info.plist */,
 				265A2C222230411B00790D1E /* Fuel_Rewards.xcdatamodeld */,
+				26C1DC7F223F01960063AFC8 /* User.swift */,
 			);
 			path = "Fuel Rewards";
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				26C1DC7E223ED02C0063AFC8 /* loginViewController.swift in Sources */,
 				265A2C1E2230411B00790D1E /* ViewController.swift in Sources */,
 				265A2C1C2230411B00790D1E /* AppDelegate.swift in Sources */,
+				26C1DC80223F01960063AFC8 /* User.swift in Sources */,
 				265A2C242230411B00790D1E /* Fuel_Rewards.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
