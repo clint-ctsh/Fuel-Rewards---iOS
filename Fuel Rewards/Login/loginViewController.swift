@@ -6,10 +6,12 @@
 //  Copyright © 2019 Cognizant. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
-class MainViewController: UIViewController {
+class loginViewController: UIViewController {
+    
+    @IBOutlet weak var loginBtnOutlet: UIButton!
+    
     override func viewDidLoad() {
         
     }
