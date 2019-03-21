@@ -16,10 +16,6 @@
 		F4081EB722433391004A53F8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4081EB622433391004A53F8 /* User.swift */; };
 		F4D29D2C2242F9F000FBB49D /* SubmitTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D29D2B2242F9F000FBB49D /* SubmitTransactionViewController.swift */; };
 		F4D29D2E2242FA0200FBB49D /* ListTransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D29D2D2242FA0200FBB49D /* ListTransactionsViewController.swift */; };
-		F4D29D302242FA1600FBB49D /* ListTransactionsScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D29D2F2242FA1600FBB49D /* ListTransactionsScreen.storyboard */; };
-		F4D29D322242FA2700FBB49D /* SubmitTransactionsScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D29D312242FA2700FBB49D /* SubmitTransactionsScreen.storyboard */; };
-		F4D29D362242FA6400FBB49D /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D29D352242FA6400FBB49D /* LoginScreen.storyboard */; };
-		F4D29D382242FA7100FBB49D /* SignupScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D29D372242FA7100FBB49D /* SignupScreen.storyboard */; };
 		F4D29D3A2242FA7F00FBB49D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D29D392242FA7F00FBB49D /* LoginViewController.swift */; };
 		F4D29D3C2242FA8800FBB49D /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D29D3B2242FA8800FBB49D /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
@@ -36,10 +32,6 @@
 		F4081EB622433391004A53F8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F4D29D2B2242F9F000FBB49D /* SubmitTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitTransactionViewController.swift; sourceTree = "<group>"; };
 		F4D29D2D2242FA0200FBB49D /* ListTransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTransactionsViewController.swift; sourceTree = "<group>"; };
-		F4D29D2F2242FA1600FBB49D /* ListTransactionsScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListTransactionsScreen.storyboard; sourceTree = "<group>"; };
-		F4D29D312242FA2700FBB49D /* SubmitTransactionsScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SubmitTransactionsScreen.storyboard; sourceTree = "<group>"; };
-		F4D29D352242FA6400FBB49D /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
-		F4D29D372242FA7100FBB49D /* SignupScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignupScreen.storyboard; sourceTree = "<group>"; };
 		F4D29D392242FA7F00FBB49D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F4D29D3B2242FA8800FBB49D /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,10 +66,10 @@
 		1FAD58C0223AC416008AE57E /* 7 Eleven App */ = {
 			isa = PBXGroup;
 			children = (
-				F4D29D342242FA5900FBB49D /* Signup */,
-				F4D29D332242FA5300FBB49D /* Login */,
-				F4D29D2A2242F9D500FBB49D /* SubmitTransaction */,
-				F4D29D292242F9C000FBB49D /* ListTransactions */,
+				F4D29D392242FA7F00FBB49D /* LoginViewController.swift */,
+				F4D29D3B2242FA8800FBB49D /* SignupViewController.swift */,
+				F4D29D2B2242F9F000FBB49D /* SubmitTransactionViewController.swift */,
+				F4D29D2D2242FA0200FBB49D /* ListTransactionsViewController.swift */,
 				1FAD58C1223AC416008AE57E /* AppDelegate.swift */,
 				1FAD58C5223AC416008AE57E /* Main.storyboard */,
 				1FAD58C3223AC416008AE57E /* ViewController.swift */,
@@ -88,42 +80,6 @@
 				F4081EB622433391004A53F8 /* User.swift */,
 			);
 			path = "7 Eleven App";
-			sourceTree = "<group>";
-		};
-		F4D29D292242F9C000FBB49D /* ListTransactions */ = {
-			isa = PBXGroup;
-			children = (
-				F4D29D2F2242FA1600FBB49D /* ListTransactionsScreen.storyboard */,
-				F4D29D2D2242FA0200FBB49D /* ListTransactionsViewController.swift */,
-			);
-			path = ListTransactions;
-			sourceTree = "<group>";
-		};
-		F4D29D2A2242F9D500FBB49D /* SubmitTransaction */ = {
-			isa = PBXGroup;
-			children = (
-				F4D29D2B2242F9F000FBB49D /* SubmitTransactionViewController.swift */,
-				F4D29D312242FA2700FBB49D /* SubmitTransactionsScreen.storyboard */,
-			);
-			path = SubmitTransaction;
-			sourceTree = "<group>";
-		};
-		F4D29D332242FA5300FBB49D /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				F4D29D352242FA6400FBB49D /* LoginScreen.storyboard */,
-				F4D29D392242FA7F00FBB49D /* LoginViewController.swift */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		F4D29D342242FA5900FBB49D /* Signup */ = {
-			isa = PBXGroup;
-			children = (
-				F4D29D372242FA7100FBB49D /* SignupScreen.storyboard */,
-				F4D29D3B2242FA8800FBB49D /* SignupViewController.swift */,
-			);
-			path = Signup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,13 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D29D322242FA2700FBB49D /* SubmitTransactionsScreen.storyboard in Resources */,
 				1FAD58CC223AC419008AE57E /* LaunchScreen.storyboard in Resources */,
 				1FAD58C9223AC419008AE57E /* Assets.xcassets in Resources */,
 				1FAD58C7223AC416008AE57E /* Main.storyboard in Resources */,
-				F4D29D382242FA7100FBB49D /* SignupScreen.storyboard in Resources */,
-				F4D29D362242FA6400FBB49D /* LoginScreen.storyboard in Resources */,
-				F4D29D302242FA1600FBB49D /* ListTransactionsScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
