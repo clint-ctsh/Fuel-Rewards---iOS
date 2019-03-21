@@ -8,7 +8,7 @@
 
 import Foundation
 
-class User: NSObject, NSCoding {
+class User: NSObject, NSCoding  {
     var name: String
     var email: String
     
